@@ -4,6 +4,11 @@ import {
   OwnershipTransferred as OwnershipTransferredEvent,
   Transfer as TransferEvent
 } from "../generated/BoredApeYachtClub/BoredApeYachtClub"
+
+import {
+    Token, User
+} from '../generated/schema'
+
 import {
   Approval,
   ApprovalForAll,
